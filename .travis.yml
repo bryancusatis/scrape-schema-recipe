@@ -7,9 +7,8 @@ python:
   - '3.4'
   - '3.5'
   - '3.6'
-  # 3.7 fails due to mypy needing a definition for datetime.date.fromisoformat
   - '3.7-dev'
-
+  - 'pypy3.5'
 
 
 install:
